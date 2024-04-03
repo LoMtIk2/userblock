@@ -1,0 +1,243 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+header {
+    z-index: 1000;
+    background-color: #202020;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #fff;
+    padding: 1px;
+    top: 0;
+}
+
+header h1 {
+    font-size: 30px;
+    transition: font-size 0.3s ease;
+    /* Добавляем плавное переходное изменение размера текста */
+}
+
+header.h1-shrink h1 {
+    font-size: 20px;
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.content {
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    width: 90%;
+    padding: 60px 20px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-image: url('images/background.jpg');
+    position: relative;
+    z-index: 1;
+}
+
+.play-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #ff003c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 99px;
+    width: 200px;
+}
+
+.single-block-section {
+    border-radius: 50px;
+    color: #fff;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('images/stone.png');
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.single-block {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    height: 25vw;
+    max-height: 300px;
+    padding: 20px;
+    color: #fff;
+    background-color: #e81a3f;
+    font-weight: bold;
+    border-radius: 45px;
+}
+
+.block-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    font-weight: bold;
+    width: 20vh;
+    max-width: 100px;
+    border-right: 5px solid #fff;
+    margin-right: 20px;
+}
+
+.block-content h3 {
+    font-size: 30px;
+}
+
+.block-content p {
+    margin-top: -25px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-color: #2c2c2c;
+}
+
+.social-buttons {
+    text-align: center;
+    padding: 20px 0;
+    align-items: center;
+    background-color: #2a2a2a;
+}
+
+.social-button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.social-buttons img {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 50px;
+    transition: all 0.5s ease;
+}
+
+.social-button img:hover {
+    border: 3px solid #5500ff00;
+}
+
+#sb1 img:hover {
+    background-color: rgb(0, 119, 255);
+}
+
+#sb2 img:hover {
+    background-color: rgb(0, 26, 255);
+}
+
+#sb3 img:hover {
+    background-color: rgb(0, 119, 255);
+}
+
+.btn-12 {
+    text-align: center;
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    background-color: #e81a3f;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.btn-12:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #fff;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+    
+}
+
+.btn-12:hover {
+    transition: all 0.3s ease;
+    background-color: #5500ff00;
+    border-radius: 0px;
+}
+
+.btn-12:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.server-ip {
+    max-width: 500px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #fff;
+    background-color: #e81a3f;
+    width: 90%;
+}
+
+.server-ip a {
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.server-ip button {
+    cursor: pointer;
+    border: none;
+    background-color: #202020;
+    color: #fff;
+    padding: 15px;
+    border-radius: 90px;
+    margin: 0 auto;
+    font-weight: bolder;
+    border: 3px solid #202020;
+    transition: all 0.5s ease;
+}
+
+.server-ip button:hover {
+    scale: 1.1;
+    color: #202020;
+    background-color: #ffffff00;
+}
+
+#butn {
+    display: flex;
+}
