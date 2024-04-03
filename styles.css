@@ -76,14 +76,12 @@ header.h1-shrink h1 {
 
 .single-block {
     overflow: hidden;
-    margin: 10px;
+    margin: 30px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
-    max-width: 900px;
-    height: 25vw;
-    max-height: 300px;
+    max-width: 700px;
     padding: 20px;
     color: #fff;
     background-color: #e81a3f;
